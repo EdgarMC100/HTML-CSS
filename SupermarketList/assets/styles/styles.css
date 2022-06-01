@@ -1,0 +1,75 @@
+/* .container .main-content {} */
+
+@font-face {
+    font-family: cursive;
+    src: url("../fonts/cerdaville_cursive_regular.ttf");
+    font-size: normal;
+    font-weight: 400;
+}
+
+body {
+    background: url("https://i.pinimg.com/originals/f6/62/e3/f662e327d39755a254a98114136fc99b.jpg") no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    font-family: cursive;
+}
+
+.container .header-title {
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px 1px #31577e;
+}
+
+.container .main-content .notebook {
+    background-image: url("../images/notebook.png");
+    background-repeat: no-repeat;
+    /* width: 50%; */
+    width: 457px;
+    height: 500px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 1000px;
+    padding-top: 20px;
+}
+
+.container .main-content .notebook .notebook-content {
+    /* background-image: url("../images/background.png"); */
+    background-repeat: repeat-y;
+    padding: 10px 0px 0px 50px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    overflow: scroll;
+    scroll-behavior: smooth;
+    height: 548px;
+    position: relative;
+}
+
+.container .main-content .notebook .notebook-content::-webkit-scrollbar {
+    display: none;
+}
+
+.container .main-content .notebook .notebook-content .list-title {
+    margin-top: -5px;
+    margin-right: 50px;
+}
+
+.container .main-content .notebook .notebook-content .subtitle {
+    position: absolute;
+    line-height: 17px;
+}
+
+.container .main-content .notebook .notebook-content .fruits-list {
+    width: 30px;
+    margin-top: 65px;
+}
+
+.container .main-content .notebook .notebook-content .fruits-list .fruits-list__item {
+    margin-top: 5px;
+    width: max-content;
+}
+
+.container .main-content .notebook .notebook-content .fruits-list .fruits-list__item-link {
+    /* text-decoration: none; */
+    color: #31577e;
+    margin-right: 10px;
+}

@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.parent {
+  border: 2px black dotted;
+  display: none;
+}
+
+.box {
+  background-color: brown;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+}
+
+#two {
+  color: yellowgreen;
+  position: absolute;
+}
+
+.parent2 {
+  background-color: aquamarine;
+  height: 100vh;
+  width: 100vw;
+  padding-top: 25vh;
+}
+
+.big-card {
+  background-color: aqua;
+  min-width: 500px;
+  min-height: 30rem;
+  max-height: 30rem;
+  height: 30rem;
+  margin: 0 auto;
+  width: 50vw;
+}
+
+.big-card p {
+  font-size: 2.5rem;
+  margin: 0 auto;
+  text-align: justify;
+  width: 50%;
+  max-width: 50%;
+  overflow: hidden;
+  /* white-space: nowrap;
+  text-overflow: ellipsis; */
+  /* overflow: hidden; */
+}
+
+.little-card {
+  background-color: blueviolet;
+  border-radius: 5px;
+  height: 25%;
+  left: 37.5%;
+  min-height: 25%;
+  max-height: 25%;
+  position: relative;
+  top: -3.75rem;
+  width: 25%;
+}
+
+.little-card p {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  /* line-height: 5.6rem; */
+  /* font-size: 2rem; */
+  /* padding: 2.025rem 0; */
+}

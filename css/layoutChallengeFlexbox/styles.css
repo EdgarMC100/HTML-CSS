@@ -1,0 +1,174 @@
+:root {
+  --primary: #202125;
+  font-size: 62.5%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #202125;
+  color: white;
+  font-size: 1.6rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-width: 800px;
+}
+
+.container .header {
+  /* background-color: white; */
+  display: flex;
+  height: 10vh;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  width: 100vw;
+  flex-direction: row-reverse;
+}
+
+.container .header .header_logo {
+  display: none;
+  margin-left: 3rem;
+}
+.container .header img {
+  height: 6.8rem;
+}
+.container .header .menu {
+  /* align-items: center; */
+  display: flex;
+  justify-content: center;
+  width: 300px;
+}
+.container .header .menu .menu_list {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+  width: 100%;
+}
+
+.container .header .menu .menu_list li {
+  flex-grow: 1;
+}
+
+.container .header .menu .menu_list .menu_list_item {
+  margin-right: 2rem;
+}
+
+.container .header .menu .menu_list li a img {
+  height: 100%;
+  border-radius: 100%;
+}
+
+.container .main-container {
+  /* background-color: #415d43; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  width: 100vw;
+}
+
+/* .container .main-container .sidebar {
+  background-color: brown;
+  width: 20vw;
+} */
+
+.container .main-container .main {
+  /* background-color: goldenrod; */
+  /* width: 100%; */
+  text-align: center;
+  width: 50vw;
+  height: 100%;
+}
+
+.container .main-container .main .image-container {
+  width: 100%;
+  margin-top: auto;
+  min-width: 600px;
+  max-height: 92px;
+  position: relative;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 92px;
+  max-height: 290px;
+  height: calc(100% - 560px);
+  flex-shrink: 0;
+  box-sizing: border-box;
+}
+
+.container .main-container .main .image-container .google-logo-main {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+  object-position: center bottom;
+  width: auto;
+}
+.container .main-container .main .searcher {
+  position: relative;
+  /* width: 100%; */
+  /* display: flex;
+  align-items: center; */
+  /* width: 46rem; */
+  min-width: 58.2rem;
+  max-width: 58.2rem;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+/* 
+.container .main-container .main .searcher .searcher_icons {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  z-index: 0;
+  /* display: absolute;
+  
+  width: 100%;
+  height: 4rem; 
+} */
+
+.container .main-container .main .searcher i {
+  display: inline-block;
+  position: absolute;
+  height: 100%;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.container .main-container .main .searcher i:nth-child(2) {
+  right: 0;
+}
+
+.container .main-container .main .searcher i svg {
+  height: 24px;
+}
+.container .main-container .main .searcher .searcher_input {
+  border-radius: 50px;
+  width: 100%;
+  height: 4.4rem;
+  border: 1px solid #5f6368;
+  background-color: var(--primary);
+  z-index: 2;
+  padding: 0 6rem;
+  font-size: 1.6rem;
+  color: white;
+}
+.container .footer {
+  height: 10vh;
+  width: 100vw;
+  background-color: #111d13;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

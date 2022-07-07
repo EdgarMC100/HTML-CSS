@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  background-color: #666;
+}
+
+.container {
+  border: 0.3rem solid black;
+  display: flex;
+  /* height: 50vh; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  flex-wrap: wrap;
+}
+
+.box {
+  /* width: 10rem; */
+  height: 10rem;
+  flex-basis: 10rem;
+  flex-grow: 1;
+  border: 0.1rem dotted black;
+  color: white;
+}
+.box:nth-child(1),
+.box:nth-child(2),
+.box:nth-child(3) {
+  color: black;
+}
+
+.box1 {
+  background-color: aquamarine;
+}
+
+.box2 {
+  background-color: aliceblue;
+}
+
+.box3 {
+  background-color: azure;
+}
+
+.box4 {
+  background-color: blueviolet;
+}
+
+.box5 {
+  background-color: blue;
+}
+
+.box6 {
+  background-color: #666;
+}
